@@ -1,0 +1,1640 @@
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:67> exception=TypeError('cannot unpack non-iterable NoneType object')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 70, in handle_connection
+    response, w_flag = await handle_query(message)
+  File "./sample_submission/server.py", line 93, in handle_query
+    lat_str, lng_str = parse_for_lat_lng(coords)
+TypeError: cannot unpack non-iterable NoneType object
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:67> exception=TypeError('cannot unpack non-iterable NoneType object')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 70, in handle_connection
+    response, w_flag = await handle_query(message)
+  File "./sample_submission/server.py", line 93, in handle_query
+    lat_str, lng_str = parse_for_lat_lng(coords)
+TypeError: cannot unpack non-iterable NoneType object
+  File "./sample_submission/server.py", line 157
+    global client_hist
+    ^
+SyntaxError: name 'client_hist' is used prior to global declaration
+  File "./sample_submission/server.py", line 157
+    global client_hist
+    ^
+SyntaxError: name 'client_hist' is used prior to global declaration
+  File "./sample_submission/server.py", line 157
+    global client_hist
+    ^
+SyntaxError: name 'client_hist' is used prior to global declaration
+  File "./sample_submission/server.py", line 157
+    global client_hist
+    ^
+SyntaxError: name 'client_hist' is used prior to global declaration
+  File "./sample_submission/server.py", line 157
+    global client_hist
+    ^
+SyntaxError: name 'client_hist' is used prior to global declaration
+  File "./sample_submission/server.py", line 157
+    global client_hist
+    ^
+SyntaxError: name 'client_hist' is used prior to global declaration
+  File "./sample_submission/server.py", line 157
+    global client_hist
+    ^
+SyntaxError: name 'client_hist' is used prior to global declaration
+  File "./sample_submission/server.py", line 157
+    global client_hist
+    ^
+SyntaxError: name 'client_hist' is used prior to global declaration
+  File "./sample_submission/server.py", line 157
+    global client_hist
+    ^
+SyntaxError: name 'client_hist' is used prior to global declaration
+  File "./sample_submission/server.py", line 157
+    global client_hist
+    ^
+SyntaxError: name 'client_hist' is used prior to global declaration
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:67> exception=ValueError('not enough values to unpack (expected 2, got 0)')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 70, in handle_connection
+    response, w_flag = await handle_query(message)
+  File "./sample_submission/server.py", line 93, in handle_query
+    lat_str, lng_str = parse_for_lat_lng(coords)
+  File "./sample_submission/server.py", line 200, in parse_for_lat_lng
+    lat, lng = ''
+ValueError: not enough values to unpack (expected 2, got 0)
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:67> exception=ValueError('not enough values to unpack (expected 2, got 0)')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 70, in handle_connection
+    response, w_flag = await handle_query(message)
+  File "./sample_submission/server.py", line 93, in handle_query
+    lat_str, lng_str = parse_for_lat_lng(coords)
+  File "./sample_submission/server.py", line 200, in parse_for_lat_lng
+    lat, lng = ''
+ValueError: not enough values to unpack (expected 2, got 0)
+./sample_submission/server.py:191: DeprecationWarning: The loop argument is deprecated since Python 3.8, and scheduled for removal in Python 3.10.
+  reader, writer = await asyncio.open_connection('127.0.0.1', server_dict[n], loop=loop)
+Task exception was never retrieved
+future: <Task finished name='Task-8' coro=<handle_connection() done, defined at ./sample_submission/server.py:67> exception=ValueError('not enough values to unpack (expected 2, got 0)')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 70, in handle_connection
+    response, w_flag = await handle_query(message)
+  File "./sample_submission/server.py", line 133, in handle_query
+    lat, lng = parse_for_lat_lng(client_hist[client_id][3])
+  File "./sample_submission/server.py", line 200, in parse_for_lat_lng
+    lat = ''
+ValueError: not enough values to unpack (expected 2, got 0)
+./sample_submission/server.py:191: DeprecationWarning: The loop argument is deprecated since Python 3.8, and scheduled for removal in Python 3.10.
+  reader, writer = await asyncio.open_connection('127.0.0.1', server_dict[n], loop=loop)
+Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<handle_connection() done, defined at ./sample_submission/server.py:67> exception=ValueError('not enough values to unpack (expected 2, got 0)')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 70, in handle_connection
+    response, w_flag = await handle_query(message)
+  File "./sample_submission/server.py", line 133, in handle_query
+    lat, lng = parse_for_lat_lng(client_hist[client_id][3])
+  File "./sample_submission/server.py", line 200, in parse_for_lat_lng
+    lat = ''
+ValueError: not enough values to unpack (expected 2, got 0)
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:69> exception=TypeError("handle_query() missing 1 required positional argument: 'writer'")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 71, in handle_connection
+    response, w_flag = await handle_query(message)
+TypeError: handle_query() missing 1 required positional argument: 'writer'
+Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<handle_connection() done, defined at ./sample_submission/server.py:69> exception=TypeError("handle_query() missing 1 required positional argument: 'writer'")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 71, in handle_connection
+    response, w_flag = await handle_query(message)
+TypeError: handle_query() missing 1 required positional argument: 'writer'
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:69> exception=TypeError("handle_query() missing 1 required positional argument: 'writer'")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 71, in handle_connection
+    response, w_flag = await handle_query(message)
+TypeError: handle_query() missing 1 required positional argument: 'writer'
+./sample_submission/server.py:222: DeprecationWarning: The loop argument is deprecated since Python 3.8, and scheduled for removal in Python 3.10.
+  reader, writer = await asyncio.open_connection('127.0.0.1', server_dict[n], loop=loop)
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+./sample_submission/server.py:222: DeprecationWarning: The loop argument is deprecated since Python 3.8, and scheduled for removal in Python 3.10.
+  reader, writer = await asyncio.open_connection('127.0.0.1', server_dict[n], loop=loop)
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+./sample_submission/server.py:222: DeprecationWarning: The loop argument is deprecated since Python 3.8, and scheduled for removal in Python 3.10.
+  reader, writer = await asyncio.open_connection('127.0.0.1', server_dict[n], loop=loop)
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+./sample_submission/server.py:222: DeprecationWarning: The loop argument is deprecated since Python 3.8, and scheduled for removal in Python 3.10.
+  reader, writer = await asyncio.open_connection('127.0.0.1', server_dict[n], loop=loop)
+Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-11' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+./sample_submission/server.py:222: DeprecationWarning: The loop argument is deprecated since Python 3.8, and scheduled for removal in Python 3.10.
+  reader, writer = await asyncio.open_connection('127.0.0.1', server_dict[n], loop=loop)
+Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-8' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-8' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-8' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-8' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-8' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-13' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-17' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-14' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-14' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+./sample_submission/server.py:222: DeprecationWarning: The loop argument is deprecated since Python 3.8, and scheduled for removal in Python 3.10.
+  reader, writer = await asyncio.open_connection('127.0.0.1', server_dict[n], loop=loop)
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-18' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-16' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-20' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-18' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-22' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-16' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-26' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+./sample_submission/server.py:222: DeprecationWarning: The loop argument is deprecated since Python 3.8, and scheduled for removal in Python 3.10.
+  reader, writer = await asyncio.open_connection('127.0.0.1', server_dict[n], loop=loop)
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-28' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-15' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-30' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-20' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-22' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+./sample_submission/server.py:222: DeprecationWarning: The loop argument is deprecated since Python 3.8, and scheduled for removal in Python 3.10.
+  reader, writer = await asyncio.open_connection('127.0.0.1', server_dict[n], loop=loop)
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-15' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+./sample_submission/server.py:222: DeprecationWarning: The loop argument is deprecated since Python 3.8, and scheduled for removal in Python 3.10.
+  reader, writer = await asyncio.open_connection('127.0.0.1', server_dict[n], loop=loop)
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+./sample_submission/server.py:222: DeprecationWarning: The loop argument is deprecated since Python 3.8, and scheduled for removal in Python 3.10.
+  reader, writer = await asyncio.open_connection('127.0.0.1', server_dict[n], loop=loop)
+Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-8' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-8' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-18' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-14' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+./sample_submission/server.py:222: DeprecationWarning: The loop argument is deprecated since Python 3.8, and scheduled for removal in Python 3.10.
+  reader, writer = await asyncio.open_connection('127.0.0.1', server_dict[n], loop=loop)
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-20' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-16' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-26' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-31' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+./sample_submission/server.py:222: DeprecationWarning: The loop argument is deprecated since Python 3.8, and scheduled for removal in Python 3.10.
+  reader, writer = await asyncio.open_connection('127.0.0.1', server_dict[n], loop=loop)
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+./sample_submission/server.py:222: DeprecationWarning: The loop argument is deprecated since Python 3.8, and scheduled for removal in Python 3.10.
+  reader, writer = await asyncio.open_connection('127.0.0.1', server_dict[n], loop=loop)
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-28' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-8' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-34' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-37' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-38' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-14' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-42' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-46' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-18' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+./sample_submission/server.py:222: DeprecationWarning: The loop argument is deprecated since Python 3.8, and scheduled for removal in Python 3.10.
+  reader, writer = await asyncio.open_connection('127.0.0.1', server_dict[n], loop=loop)
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-49' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-45' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-20' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+./sample_submission/server.py:222: DeprecationWarning: The loop argument is deprecated since Python 3.8, and scheduled for removal in Python 3.10.
+  reader, writer = await asyncio.open_connection('127.0.0.1', server_dict[n], loop=loop)
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+./sample_submission/server.py:222: DeprecationWarning: The loop argument is deprecated since Python 3.8, and scheduled for removal in Python 3.10.
+  reader, writer = await asyncio.open_connection('127.0.0.1', server_dict[n], loop=loop)
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+./sample_submission/server.py:222: DeprecationWarning: The loop argument is deprecated since Python 3.8, and scheduled for removal in Python 3.10.
+  reader, writer = await asyncio.open_connection('127.0.0.1', server_dict[n], loop=loop)
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-8' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+./sample_submission/server.py:222: DeprecationWarning: The loop argument is deprecated since Python 3.8, and scheduled for removal in Python 3.10.
+  reader, writer = await asyncio.open_connection('127.0.0.1', server_dict[n], loop=loop)
+Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+./sample_submission/server.py:222: DeprecationWarning: The loop argument is deprecated since Python 3.8, and scheduled for removal in Python 3.10.
+  reader, writer = await asyncio.open_connection('127.0.0.1', server_dict[n], loop=loop)
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-11' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-8' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-8' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-8' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-8' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-13' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-17' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-14' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-14' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+./sample_submission/server.py:222: DeprecationWarning: The loop argument is deprecated since Python 3.8, and scheduled for removal in Python 3.10.
+  reader, writer = await asyncio.open_connection('127.0.0.1', server_dict[n], loop=loop)
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-18' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-9' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-16' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-20' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-18' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-22' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-17' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-26' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+./sample_submission/server.py:222: DeprecationWarning: The loop argument is deprecated since Python 3.8, and scheduled for removal in Python 3.10.
+  reader, writer = await asyncio.open_connection('127.0.0.1', server_dict[n], loop=loop)
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-28' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-14' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-30' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-20' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-22' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+./sample_submission/server.py:222: DeprecationWarning: The loop argument is deprecated since Python 3.8, and scheduled for removal in Python 3.10.
+  reader, writer = await asyncio.open_connection('127.0.0.1', server_dict[n], loop=loop)
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-15' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+./sample_submission/server.py:222: DeprecationWarning: The loop argument is deprecated since Python 3.8, and scheduled for removal in Python 3.10.
+  reader, writer = await asyncio.open_connection('127.0.0.1', server_dict[n], loop=loop)
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+./sample_submission/server.py:222: DeprecationWarning: The loop argument is deprecated since Python 3.8, and scheduled for removal in Python 3.10.
+  reader, writer = await asyncio.open_connection('127.0.0.1', server_dict[n], loop=loop)
+Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-8' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-8' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-18' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-14' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+./sample_submission/server.py:222: DeprecationWarning: The loop argument is deprecated since Python 3.8, and scheduled for removal in Python 3.10.
+  reader, writer = await asyncio.open_connection('127.0.0.1', server_dict[n], loop=loop)
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-20' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-16' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-26' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+./sample_submission/server.py:222: DeprecationWarning: The loop argument is deprecated since Python 3.8, and scheduled for removal in Python 3.10.
+  reader, writer = await asyncio.open_connection('127.0.0.1', server_dict[n], loop=loop)
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-31' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+./sample_submission/server.py:222: DeprecationWarning: The loop argument is deprecated since Python 3.8, and scheduled for removal in Python 3.10.
+  reader, writer = await asyncio.open_connection('127.0.0.1', server_dict[n], loop=loop)
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-28' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-8' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-34' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-37' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-38' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-14' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-42' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-18' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-45' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+./sample_submission/server.py:222: DeprecationWarning: The loop argument is deprecated since Python 3.8, and scheduled for removal in Python 3.10.
+  reader, writer = await asyncio.open_connection('127.0.0.1', server_dict[n], loop=loop)
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-49' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 200, in handle_connection
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-46' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-20' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<handle_connection() done, defined at ./sample_submission/server.py:80> exception=ConnectionResetError('Connection lost')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 202, in handle_connection
+    await writer.drain()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 387, in drain
+    await self._protocol._drain_helper()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 190, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:69> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 74, in handle_connection
+    await handle_query(message, reader, writer)
+  File "./sample_submission/server.py", line 202, in handle_query
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<handle_connection() done, defined at ./sample_submission/server.py:69> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 74, in handle_connection
+    await handle_query(message, reader, writer)
+  File "./sample_submission/server.py", line 202, in handle_query
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:69> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 74, in handle_connection
+    await handle_query(message, reader, writer)
+  File "./sample_submission/server.py", line 202, in handle_query
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:69> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 75, in handle_connection
+    response, w_flag = await handle_query(message, reader, writer)
+  File "./sample_submission/server.py", line 204, in handle_query
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<handle_connection() done, defined at ./sample_submission/server.py:69> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 75, in handle_connection
+    response, w_flag = await handle_query(message, reader, writer)
+  File "./sample_submission/server.py", line 204, in handle_query
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:69> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 75, in handle_connection
+    response, w_flag = await handle_query(message, reader, writer)
+  File "./sample_submission/server.py", line 204, in handle_query
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:69> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 75, in handle_connection
+    response, w_flag = await handle_query(message, reader, writer)
+  File "./sample_submission/server.py", line 204, in handle_query
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:69> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 75, in handle_connection
+    response, w_flag = await handle_query(message, reader, writer)
+  File "./sample_submission/server.py", line 204, in handle_query
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:69> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 75, in handle_connection
+    response, w_flag = await handle_query(message, reader, writer)
+  File "./sample_submission/server.py", line 204, in handle_query
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<handle_connection() done, defined at ./sample_submission/server.py:69> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 75, in handle_connection
+    response, w_flag = await handle_query(message, reader, writer)
+  File "./sample_submission/server.py", line 204, in handle_query
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:69> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 75, in handle_connection
+    response, w_flag = await handle_query(message, reader, writer)
+  File "./sample_submission/server.py", line 204, in handle_query
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:69> exception=UnboundLocalError("local variable 'msg' referenced before assignment")>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 75, in handle_connection
+    response, w_flag = await handle_query(message, reader, writer)
+  File "./sample_submission/server.py", line 204, in handle_query
+    response = '? {}'.format(msg)
+UnboundLocalError: local variable 'msg' referenced before assignment
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:69> exception=TypeError('slice indices must be integers or None or have an __index__ method')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 72, in handle_connection
+    message = (await reader.read(max_msg_len)).decode()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 687, in read
+    data = bytes(self._buffer[:n])
+TypeError: slice indices must be integers or None or have an __index__ method
+Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<handle_connection() done, defined at ./sample_submission/server.py:69> exception=TypeError('slice indices must be integers or None or have an __index__ method')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 72, in handle_connection
+    message = (await reader.read(max_msg_len)).decode()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 687, in read
+    data = bytes(self._buffer[:n])
+TypeError: slice indices must be integers or None or have an __index__ method
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:69> exception=TypeError('slice indices must be integers or None or have an __index__ method')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 72, in handle_connection
+    message = (await reader.read(max_msg_len)).decode()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 687, in read
+    data = bytes(self._buffer[:n])
+TypeError: slice indices must be integers or None or have an __index__ method
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:42> exception=TypeError('cannot unpack non-iterable NoneType object')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 45, in handle_connection
+    response, w_flag = await handle_query(message)
+TypeError: cannot unpack non-iterable NoneType object
+Task exception was never retrieved
+future: <Task finished name='Task-6' coro=<handle_connection() done, defined at ./sample_submission/server.py:42> exception=TypeError('cannot unpack non-iterable NoneType object')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 45, in handle_connection
+    response, w_flag = await handle_query(message)
+TypeError: cannot unpack non-iterable NoneType object
+Task exception was never retrieved
+future: <Task finished name='Task-4' coro=<handle_connection() done, defined at ./sample_submission/server.py:42> exception=TypeError('cannot unpack non-iterable NoneType object')>
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 45, in handle_connection
+    response, w_flag = await handle_query(message)
+TypeError: cannot unpack non-iterable NoneType object
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 232, in <module>
+    main()
+  File "./sample_submission/server.py", line 218, in main
+    server = loop.run_until_complete(coro)
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 94, in start_server
+    return await loop.create_server(factory, host, port, **kwds)
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/base_events.py", line 1463, in create_server
+    raise OSError(err.errno, 'error while attempting '
+OSError: [Errno 98] error while attempting to bind on address ('127.0.0.1', 12235): address already in use
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 232, in <module>
+    main()
+  File "./sample_submission/server.py", line 218, in main
+    server = loop.run_until_complete(coro)
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 94, in start_server
+    return await loop.create_server(factory, host, port, **kwds)
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/base_events.py", line 1463, in create_server
+    raise OSError(err.errno, 'error while attempting '
+OSError: [Errno 98] error while attempting to bind on address ('127.0.0.1', 12236): address already in use
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 232, in <module>
+    main()
+  File "./sample_submission/server.py", line 218, in main
+    server = loop.run_until_complete(coro)
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 94, in start_server
+    return await loop.create_server(factory, host, port, **kwds)
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/base_events.py", line 1463, in create_server
+    raise OSError(err.errno, 'error while attempting '
+OSError: [Errno 98] error while attempting to bind on address ('127.0.0.1', 12237): address already in use
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 232, in <module>
+    main()
+  File "./sample_submission/server.py", line 218, in main
+    server = loop.run_until_complete(coro)
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 94, in start_server
+    return await loop.create_server(factory, host, port, **kwds)
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/base_events.py", line 1463, in create_server
+    raise OSError(err.errno, 'error while attempting '
+OSError: [Errno 98] error while attempting to bind on address ('127.0.0.1', 12238): address already in use
+Traceback (most recent call last):
+  File "./sample_submission/server.py", line 232, in <module>
+    main()
+  File "./sample_submission/server.py", line 218, in main
+    server = loop.run_until_complete(coro)
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/streams.py", line 94, in start_server
+    return await loop.create_server(factory, host, port, **kwds)
+  File "/usr/local/cs/Python-3.8.2/lib/python3.8/asyncio/base_events.py", line 1463, in create_server
+    raise OSError(err.errno, 'error while attempting '
+OSError: [Errno 98] error while attempting to bind on address ('127.0.0.1', 12239): address already in use

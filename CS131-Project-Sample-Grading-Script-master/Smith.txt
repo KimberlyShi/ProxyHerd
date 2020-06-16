@@ -1,0 +1,8 @@
+AT: AT Hill +0.0027806758880615234 client_3 +34.06893-118.445127 1590816557.2086928
+
+new AT info: AT Hill +0.0027806758880615234 client_3 +34.06893-118.445127 1590816557.2086928
+
+Failed to propagate to Campbell
+Failed to propagate to Singleton
+WHATSAT: WHATSAT client_3 10 5
+
