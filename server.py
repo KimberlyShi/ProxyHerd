@@ -6,7 +6,8 @@ import time
 import re
 
 url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?'
-key = 'AIzaSyDSMmKARAlo8xG3PFlGh72kvoI7UQsV1Lk'
+#remove API key
+key = ''
 loop = ''
 serverID = ''
 allClients = {}
